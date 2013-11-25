@@ -1,7 +1,7 @@
 Summary:	Inter Client Exchange library
 Name:		xorg-libICE
 Version:	1.0.8
-Release:	3
+Release:	4
 License:	MIT
 Group:		X11/Libraries
 Source0:	http://xorg.freedesktop.org/releases/individual/lib/libICE-%{version}.tar.bz2
@@ -68,7 +68,6 @@ rm -rf $RPM_BUILD_ROOT
 %files devel
 %defattr(644,root,root,755)
 %attr(755,root,root) %{_libdir}/libICE.so
-%{_libdir}/libICE.la
 %dir %{_includedir}/X11/ICE
 %{_includedir}/X11/ICE/*.h
 %{_pkgconfigdir}/ice.pc
